@@ -14,6 +14,29 @@ I'm also planning to swap in a **TU5JP4 (1.6L 16V)**, which is known for better 
 
 ---
 
+## Harware 
+
+The hardware design will be based on the proven components from the **Speeduino** project. The aim is to create a custom PCB around these parts to suit PSA TU engines in a plug-and-play format.
+
+- Mega 2560 Pro
+
+---
+## ECU List for TU5J and TU5JP4
+
+Below is a list of common ECUs found in PSA TU5J and TU5JP4 engines, which will guide compatibility and wiring design for this project:
+
+| ECU Model          | Engine Type     | Notes                                  |
+|--------------------|-----------------|---------------------------------------|
+| Siemens SID803     | TU5J 1.6L 8V    | Used in early Peugeot 306 models      |
+| Bosch ME7.4.5      | TU5JP4 1.6L 16V | Supports multi-point fuel injection and variable valve timing |
+| Valeo ECU (Various) | TU5J / TU5JP4  | Found in some Citroën models           |
+
+> **Note:** These ECUs differ in their male header pin configurations, which affects wiring and connector compatibility. The custom PCB design will accommodate these differences for plug-and-play integration.
+
+This list will be updated as testing and research progresses.
+
+---
+
 ## License
 
 This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**.
