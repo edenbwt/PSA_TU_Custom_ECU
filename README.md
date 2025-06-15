@@ -27,12 +27,13 @@ The hardware design will be based on the proven components from the **Speeduino*
 
 Below is a list of common ECUs found in PSA TU5J and TU5JP4 engines, which will guide compatibility and wiring design for this project:
 
-| ECU Model          | Engine Type     | Notes                                  |
-|--------------------|-----------------|---------------------------------------|
-| Siemens SID803     | TU5J 1.6L 8V    | Used in early Peugeot 306 models      |
-| Bosch ME7.4.5      | TU5JP4 1.6L 16V | Supports multi-point fuel injection |
-| Magneti Marelli 1AP.41 | TU5J / TU5JP4 | 106 s16 and saxo VTS |
-| Valeo ECU (Various) | TU5J / TU5JP4  | Found in some Citroën models           |
+| ECU Model          | Engine Type     | Notes                                  | Connector |
+|--------------------|-----------------|---------------------------------------|------------|
+| Siemens SID803     | TU5J 1.6L 8V    | Used in early Peugeot 306 models      | unknowed |
+| Bosch ME7.4.5      | TU5JP4 1.6L 16V | Supports multi-point fuel injection | unknowed |
+| Magneti Marelli 1AP.41 | TU5J / TU5JP4 | 106 s16 and saxo VTS | M154 ECU 55 PIN |
+| Bosch MP5.2 | TU5J / TU5JP4 | Widely used by PSA for TU engine | M154 ECU 55 PIN |
+| Valeo ECU (Various) | TU5J / TU5JP4  | Found in some Citroën models           | unknowed |
 
 > **Note:** These ECUs differ in their male header pin configurations, which affects wiring and connector compatibility. The custom PCB design will accommodate these differences for plug-and-play integration.
 
