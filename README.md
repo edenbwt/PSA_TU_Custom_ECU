@@ -12,13 +12,15 @@ Currently, development is focused on the **TU5J** engine, as I am working with a
 
 I'm also planning to swap in a **TU5JP4 (1.6L 16V)**, which is known for better airflow and higher performance potential. This makes it a more capable base for tuning and further ECU development.
 
+For now, the ECU will be based on simple hardware like the Mega 2560 Pro, but the end goal is to design a full standalone management board (SMB) using surface-mount components and a dedicated microcontroller (MCU).
+
 ---
 
 ## Harware 
 
 The hardware design will be based on the proven components from the **Speeduino** project. The aim is to create a custom PCB around these parts to suit PSA TU engines in a plug-and-play format.
 
-- Mega 2560 Pro
+- Mega 2560 Pro (MCU devlopement board)
 
 ---
 ## ECU List for TU5J and TU5JP4
@@ -39,7 +41,7 @@ This list will be updated as testing and research progresses.
 ## ECU connector
 
 #### M154 ECU 55 PIN
-this connector is widly used by BOSCH ecu for example the  BOSCH 0261203912 MP5.2 used by the TU engine
+This connector is widely used by BOSCH ECUs, such as the BOSCH 0 261 203 912 (MP5.2) used with the TU engine.
 ![alt text](https://github.com/edenbwt/PSA_TU_Custom_ECU/blob/main/connector/IMG_5122-900x1200.jpg?raw=true)
 
 ---
