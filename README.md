@@ -36,6 +36,13 @@ Below is a list of common ECUs found in PSA TU5J and TU5JP4 engines, which will 
 This list will be updated as testing and research progresses.
 
 ---
+## ECU connector
+
+#### M154 ECU 55 PIN
+this connector is widly used by BOSCH ecu for example the  BOSCH 0261203912 MP5.2 used by the TU engine
+![alt text](https://github.com/edenbwt/PSA_TU_Custom_ECU/blob/main/connector/IMG_5122-900x1200.jpg?raw=true)
+
+---
 
 ## License
 
