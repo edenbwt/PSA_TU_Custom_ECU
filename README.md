@@ -44,6 +44,9 @@ This list will be updated as testing and research progresses.
 This connector is widely used by BOSCH ECUs, such as the BOSCH 0 261 203 912 (MP5.2) used with the TU engine.
 ![alt text](https://github.com/edenbwt/PSA_TU_Custom_ECU/blob/main/connector/IMG_5122-900x1200.jpg?raw=true)
 
+#### BOSCH ME7.2, ME7.3, MP7.2, MP7.3
+Those ECUs use a different type of connector header, but it's pretty hard to find. I'll do more research to identify the correct header pin, as it's likely to be needed for the TU5JP4 swap.
+
 ---
 
 ## License
