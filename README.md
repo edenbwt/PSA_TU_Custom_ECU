@@ -48,6 +48,14 @@ This connector is widely used by BOSCH ECUs, such as the BOSCH 0 261 203 912 (MP
 Those ECUs use a different type of connector header, but it's pretty hard to find. I'll do more research to identify the correct header pin, as it's likely to be needed for the TU5JP4 swap.
 
 ---
+## Wiring Diagrams
+
+As for the wiring, special thanks to **Sylvanos Motorsport** for sharing his research on the TU engine in the Citroën Xsara.  
+Be sure to follow him on YouTube for top-tier car content:  
+ [Sylvanos Motorsport](https://www.youtube.com/@Sylvanos) – an absolute legend in the community!
+
+
+---
 
 ## License
 
