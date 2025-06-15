@@ -49,6 +49,45 @@ This connector is widely used by BOSCH ECUs, such as the BOSCH 0 261 203 912 (MP
 #### BOSCH ME7.2, ME7.3, MP7.2, MP7.3
 Those ECUs use a different type of connector header, but it's pretty hard to find. I'll do more research to identify the correct header pin, as it's likely to be needed for the TU5JP4 swap.
 
+#### Magneti Marelli 1AP.41 
+
+| Origin | Description                                                                 | Speeduino | Comment                         |
+|--------|------------------------------------------------------------------------------|-----------|----------------------------------|
+| 1      | Injector cylinder No.2 + Injector cylinder No.3                              | 2         |                                  |
+| 2      | Injector cylinder No.1 + Injector cylinder No.4                              | 3         |                                  |
+| 3      | Idle stepper motor (Coil AD)                                                 | 20        |                                  |
+| 20     | Idle stepper motor (Coil AC)                                                 | 21        |                                  |
+| 21     | Idle stepper motor (Coil BC)                                                 | 22        |                                  |
+| 40     | Idle stepper motor (Coil AB)                                                 | 23        |                                  |
+| 10     | Engine speed sensor                                                          | 11        |                                  |
+| 42     | Oxygen sensor                                                                | 32        |                                  |
+| 50     | Oxygen probe                                                                 | 9-10-12-23| Not used                         |
+| 53     | Double relay                                                                 | -         | Not used                         |
+| 36     | Ground                                                                        | -         |                                  |
+| 35     | Ground                                                                        | -         |                                  |
+| 78     | Vehicle speed sensor                                                         | 10-11-23  |                                  |
+| 26     | Injector + connector                                                         | 9-10-12-23| Ground                           |
+| 32     | Cluster + Diagnostic connector                                               | -         | Not used                         |
+| 43     | Diagnostic connector                                                         | -         |                                  |
+| 44     | Diagnostic connector                                                         | -         | "next line"                     |
+| 31     | Fuse box connector                                                           | -         |                                  |
+| 6      | Start                                                                         | 12V ignition |                               |
+| 7      | + Post-ignition injector double - anti-theft                                 | 12V ignition |                               |
+| 4      | Immobilizer                                                                  | -         |                                  |
+| 5      | Ignition module to insert                                                    | 34        | Ignition module to insert        |
+| 22     | Ignition module to insert                                                    | 34        | Ignition module to insert        |
+| 29     | Cold start system - Absent                                                   | -         | Not used                         |
+| 30     | Cold start system - Absent                                                   | -         | Not used                         |
+| 41     | Intake pressure sensor + Air pressure sensor                                 | 18-28     |                                  |
+| 17     | Intake air temperature sensor                                                | 28        |                                  |
+| 15     | Engine coolant temperature sensor                                            | 21        |                                  |
+| 14     | Knock sensor                                                                 | 22        | Not used                         |
+| 12     | Knock sensor                                                                 | 22        | Not used                         |
+| 18     | Throttle position sensor (variable signal)                                   | 9-10-12-23|                                  |
+| 16     | Throttle position sensor + Engine coolant temperature sensor                 | 9-10-12-23| Ground                           |
+| 33     | TDC Ground                                                                   | 9-10-12-23| Ground                           |
+
+
 ---
 ## Wiring Diagrams
 
